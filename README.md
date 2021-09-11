@@ -46,11 +46,36 @@ To https://github.com/mahi397/dumb-name.git
    4016ead..e68aeae  main -> main
 ````
 
+````                                                              
+path-to-repo\dumb-name (main -> origin)                    
+λ git status                                                      
+On branch main                                                    
+Your branch is up to date with 'origin/main'.                     
+                                                                  
+nothing to commit, working tree clean
 ````
-path-to-repo\dumb-name (main -> origin)
-λ git status
-On branch main
-Your branch is up to date with 'origin/main'.
 
+- Setting upstream!
+
+````
+path-to-repo\dumb-name (main -> origin)                    
+λ git push -u origin main                                         
+Enumerating objects: 5, done.                                     
+Counting objects: 100% (5/5), done.                               
+Delta compression using up to 4 threads                           
+Compressing objects: 100% (3/3), done.                            
+Writing objects: 100% (3/3), 1018 bytes | 509.00 KiB/s, done.     
+Total 3 (delta 0), reused 0 (delta 0)                             
+To https://github.com/mahi397/dumb-name.git                       
+   e68aeae..275f3bc  main -> main                                 
+Branch 'main' set up to track remote branch 'main' from 'origin'. 
+````
+
+````                                                              
+path-to-repo\dumb-name (main -> origin)                    
+λ git status                                                      
+On branch main                                                    
+Your branch is up to date with 'origin/main'.                     
+                                                                  
 nothing to commit, working tree clean
 ````
